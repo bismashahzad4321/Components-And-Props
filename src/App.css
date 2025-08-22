@@ -1,0 +1,136 @@
+/* body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  background: url("assets/images/background.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+} */
+
+/* .Heading {
+
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  /* background-color: rgb(177, 176, 176); */
+/* border: 2px solid black;
+  margin-right: 200px;
+  margin-left: 200px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.15);
+} */
+.Main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (max-width:720px) {
+  .Main{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:320px) {
+  .Main{
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 20px;
+  }
+}
+.Main-App {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  /* height: 100vh; */
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 100px;
+  /* margin-left: 350px;
+  margin-right: 350px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 40px;
+  gap: 20px;
+}
+@media screen and (max-width:720px) {
+  .Main-App{
+ margin-left: 50px;
+  margin-right: 50px;
+  gap: 2px;
+  }
+}
+@media screen and (max-width:320px) {
+  .Main-App{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 6px;
+  border-radius: 10px;
+  }
+}
+.Heading {
+  color: rgb(0, 0, 0);
+}
+@media screen and (max-width:320px) {
+  .Heading h1{
+    font-size: 20px;
+    justify-content: start;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+}
+.Description {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  list-style: none;
+  justify-content: center;
+
+
+}
+.Description h2{
+  padding-bottom: 10px;
+}
+@media screen and (max-width:320px) {
+  .Description h2{
+    font-size: 17px;
+    padding-top: 10px;
+  }
+  .Description ul li{
+    font-size: 15px;
+  }
+}
+.Description ul {
+  /* list-style: none; */
+  padding-left: 20px;
+
+}
+
+.Instructor p {
+  display: flex;
+  font-weight: 300;
+
+  font-size: 20px;
+}
+@media screen and (max-width :320px) {
+  .Instructor h1{
+    display:flex ;
+    font-size: 20px;
+    justify-content: start;
+  }
+  .Instructor p{
+ display: flex;
+ justify-content: start;
+  }
+}
